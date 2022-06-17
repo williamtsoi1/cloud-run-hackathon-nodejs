@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
 
 app.post('/', function (req, res) {
   // console.log(req.body);
-  var response_body = 'T';
+  var response_body = 'R';
   res.send(response_body);
 });
 
